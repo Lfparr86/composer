@@ -1,0 +1,23 @@
+{
+    "name": "luis/luis",
+    "autoload": {
+        "psr-4": {
+            "Monolog\\Monolog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luis"
+        }
+    ],
+    "require": {
+        "monolog/monolog":"^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.16"
+
+    },
+    "scripts": {
+        "test": "phpunit --testdox --colors tests" 
+    }
+}
